@@ -1,0 +1,43 @@
+name: dribbble
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  progresso: ^0.3.0
+  flutter_svg: ^1.1.1+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: Tanker
+      fonts:
+        - asset: fonts/Tanker-Regular.otf
+    - family: OnePlus Sans
+      fonts:
+        - asset: fonts/OnePlusSans-Regular.ttf
+        - asset: fonts/OnePlusSans-Bold.ttf
+          weight: 700
+        - asset: fonts/OnePlusSans-Medium.ttf
+          weight: 500
+        - asset: fonts/OnePlusSans-Light.ttf
+          weight: 300
+        - asset: fonts/OnePlusSans-Thin.ttf
+          weight: 100
+    - family: ExtraIcons
+      fonts:
+        - asset: fonts/ExtraIcons.ttf
